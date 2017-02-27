@@ -1,0 +1,66 @@
+body, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, button, textarea, p, blockquote, table, th, td, menu { margin: 0; padding: 0; resize: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+ul, ol, menu { list-style: none; }
+
+fieldset, img { border: none; }
+
+img, object, select, input, textarea, button { vertical-align: middle; box-sizing: content-box; }
+
+input, textarea, select, address, caption, cite, code, dfn, em, i, b, strong, small, th, var, abbr, button, u, s, del { font-style: normal; text-decoration: none; }
+
+article, aside, footer, header, hgroup, nav, section, figure, figcaption { display: block; }
+
+code, kbd, pre, samp, tt { font-family: Consolas,"Courier New", Courier, monospace; }
+
+address, cite, dfn, em, var, i { font-style: normal; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ""; content: none; }
+
+a { text-decoration: none; cursor: pointer; color: #555; }
+a:hover, a:focus { outline: none; }
+
+a, input, textarea, button, select { -webkit-tap-highlight-color: rgba(255, 255, 255, 0.5); }
+
+abbr[title], acronym[title] { border-bottom: 1px dotted; cursor: help; }
+
+body { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
+
+html { background: #f9f9f9; font-size: 100px; height: 100%; }
+
+body { color: #555; line-height: 1; margin-left: auto; margin-right: auto; font-size: 0.12rem; height: 100%; }
+
+body, button, input, select, textarea { font-family: tahoma,Helvetica, Arial,"\5FAE\8F6F\96C5\9ED1"; }
+
+.block { display: block; }
+
+.none { display: none; }
+
+.clear { clear: both; }
+
+.fl { float: left; }
+
+.fr { float: right; }
+
+.tl { text-align: left; }
+
+.tr { text-align: right; }
+
+.tc { text-align: center; }
+
+.cf { zoom: 1; }
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+
+input, textarea, select, button { -webkit-appearance: none; color: #555; font-size: 0.12rem; -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
+input[type="radio"], textarea[type="radio"], select[type="radio"], button[type="radio"] { -webkit-appearance: radio; }
+input[type="checkbox"], textarea[type="checkbox"], select[type="checkbox"], button[type="checkbox"] { -webkit-appearance: checkbox; }
+
+input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; }
+
+input[type="number"]::-webkit-outer-spin-button { -webkit-appearance: none; }
+
+.funleo_mobile_frame { max-width: 720px; width: 100%; margin: 0 auto; position: relative; background: #fff; min-height: 100%; box-shadow: 0 0 0 0.1rem #fff; }
